@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-attachment: #fff;
+    color: #666;
+    line-height: 1.6;
+}
+header{
+    background: #052227;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.link{
+    list-style: none;
+    display: flex;
+    background-color: #052227;
+    
+    
+}
+.link li{
+    margin-left: 20px;
+}
+.link a {
+    background-color: #052227;
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.link a:hover{
+    color: #b6f3fd;
+}
+.hero{
+    background-color: #011d22;
+    color: #666;
+    padding: 50px 10px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 20px;
+}
+
+.hero video {
+    max-width: 40%;
+    height: auto;
+    border-radius: 0px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin: 1%;
+
+}
+
+.About{
+    background-color: #011d22;
+    text-align: center;
+    color: #666;
+    padding: 50px 20px;
+}
+.About p{
+    font-size: medium;
+}
+
+.Services{
+    background-color: #011d22;
+    text-align: center;
+    color: #666;
+    padding: 100px;
+    
+}
+.Services ul{
+    margin-top: 50px;
+}
+
+.Services li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Contact{
+    background-color: #011d22;
+    text-align: center;
+    color: #666;
+    padding: 75px 20px;
+}
+.Contact textarea{
+    color: #011d22;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+@media(max-width: 768px) {
+    .links{
+        flex-direction: column;
+        align-items: center;
+    }
+    .links li{
+        margin: 10 px 0;
+    } 
+    .hero h1{
+        font-size: 32px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+    .About{
+        font-size: 28px;
+    }
+    .Services{
+        font-size: 28px;
+    }
+    .Contact{
+        font-size: 16px;
+    }
+}
